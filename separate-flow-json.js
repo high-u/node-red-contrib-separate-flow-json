@@ -1,5 +1,5 @@
 module.exports = function (RED) {
-  function incNode(config) {
+  function sepfunctempNode(config) {
     RED.nodes.createNode(this, config);
     this.target = config.target;
     var node = this;
@@ -8,5 +8,5 @@ module.exports = function (RED) {
       node.send(msg);
     });
   }
-  RED.nodes.registerType('increment', incNode);
+  RED.nodes.registerType('separate-flow-json', sepfunctempNode);
 };
