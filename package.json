@@ -1,0 +1,33 @@
+{
+  "name": "red-contrib-separate-flow-json",
+  "version": "0.0.1",
+  "node-red": {
+    "nodes": {
+      "separate-flow-json": "separate-flow-json.js"
+    }
+  },
+  "description": "for Node-RED. separate function and template. for git repository.",
+  "main": "separate-flow-json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/high-u/node-red-contrib-separate-flow-json.git"
+  },
+  "keywords": [
+    "Node-RED",
+    "flow",
+    "json",
+    "function",
+    "template",
+    "diff",
+    "git"
+  ],
+  "author": "high-u",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/high-u/node-red-contrib-separate-flow-json/issues"
+  },
+  "homepage": "https://github.com/high-u/node-red-contrib-separate-flow-json#readme"
+}
