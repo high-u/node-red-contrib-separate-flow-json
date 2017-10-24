@@ -19,13 +19,9 @@
 npm install --save node-red-contrib-separate-flow-json
 ```
 
-## Usage
-
-Just put it.
-
 ## Example Flow
 
-- Flow
+- Split at deployment.
 
 ![Flow](./screenshots/separate-flow-json-flow.png)
 
