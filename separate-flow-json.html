@@ -1,7 +1,7 @@
 <script type='text/javascript'>
   RED.nodes.registerType('separate-flow-json', {
     category: 'advanced',
-    color: '#4DB6AC',
+    color: '#757575',
     defaults: {
       name: { value: '' },
       target: { value: 'payload' }
@@ -10,7 +10,7 @@
     outputs: 1,
     icon: 'separate-flow-json.png',
     label: function () {
-      return this.name || "msg." + this.target + "++";
+      return this.name || "separete flow json";
     }
   });
 
@@ -20,14 +20,10 @@
     <label for='node-input-name'><i class='fa fa-tag'></i>Name</label>
     <input type='text' id='node-input-name' placeholder='Name'>
   </div>
-  <div class="form-row">
-    <label for="node-input-target"><i class="fa fa-tag"></i>Target</label> msg.
-    <input type="text" id="node-input-target" placeholder='payload'>
-  </div>
 </script>
 <script type='text/x-red' data-help-name='separate-flow-json'>
   <dl>
-    <dt>output</dt>
-    <dd>msg.payload += 1;</dd>
+    <dt>separate</dt>
+    <dd>function, template</dd>
   </dl>
 </script>
