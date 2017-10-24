@@ -81,7 +81,8 @@ npm install --save node-red-contrib-separate-flow-json
 
 ![Flow](./screenshots/separate-flow-json-dir.png)
 
-- `func key of function node` file
+- function-func-54a42e35.ef5ae.js
+  - `func key of function node` file
 
 ```js
 var items = msg.payload.items.filter(function(item){
@@ -91,7 +92,8 @@ msg.payload = items;
 return msg;
 ```
 
-- `template key of template node` file
+- template-template-d050491e.87fbb8.txt
+  - `template key of template node` file
 
 ```txt
 {
@@ -108,7 +110,7 @@ return msg;
 }
 ```
 
-- Separated Flow JSON
+- flow.json
   - without `func key of function node` and `template key of template node`. 
 
 ```json
