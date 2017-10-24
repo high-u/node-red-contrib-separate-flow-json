@@ -8,7 +8,10 @@
   },
   "description": "for Node-RED, Separate Flow-JSON.",
   "main": "separate-flow-json.js",
-  "dependencies": {},
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mkdirp": "^0.5.1"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
