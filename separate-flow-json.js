@@ -18,6 +18,7 @@ module.exports = function (RED) {
         divisioner(flow, RED.settings.flowFile, dirname);
         return;
       });
+      msg.payload = dirname;
       node.send(msg);
     });
   }
