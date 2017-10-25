@@ -1,4 +1,4 @@
-# node-red-contrib-increment
+# Separate Flow-JSON (for Node-RED)
 
 ## Released
 
