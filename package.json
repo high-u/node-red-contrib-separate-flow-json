@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-separate-flow-json",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "node-red": {
     "nodes": {
       "separate-flow-json": "separate-flow-json.js"

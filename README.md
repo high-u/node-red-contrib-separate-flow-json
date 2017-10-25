@@ -19,6 +19,8 @@
 npm install --save node-red-contrib-separate-flow-json
 ```
 
+![Node](./screenshots/separate-flow-json.png)
+
 ## Example Flow
 
 - Split at deployment.
@@ -79,7 +81,7 @@ npm install --save node-red-contrib-separate-flow-json
 
 ![Flow](./screenshots/separate-flow-json-example-flow.png)
 
-![Flow](./screenshots/separate-flow-json-dir.png)
+![Files](./screenshots/separate-flow-json-dir.png)
 
 - function-func-54a42e35.ef5ae.js
   - `func key of function node` file
