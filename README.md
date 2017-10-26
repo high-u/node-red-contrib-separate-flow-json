@@ -1,19 +1,18 @@
 # Separate Flow-JSON (for Node-RED)
 
-## Released
-
-|Date|Version|Description|
-|:--:|:--:|:--|
-|2017-10-25|0.1.4|Update documents.|
-|2017-10-24|0.0.1|Released.|
-
-
 ## Feature
 
 - Node For Node-RED.
 - Separate Flow-JSON's `function` and `template`.
 - function to `js`, template to `txt`.
 - May be able to see the diff.
+
+## Released
+
+|Date|Version|Description|
+|:--:|:--:|:--|
+|2017-10-25|0.1.4|Update documents.|
+|2017-10-24|0.0.1|Released.|
 
 ## Install
 
@@ -233,8 +232,4 @@ return msg;
 ]
 ```
 
-
-## Environment
-
-* Node-RED
 
